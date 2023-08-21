@@ -86,14 +86,20 @@ Navigating medical data can feel like walking through a maze! 🌪️ But guess 
 
 ## Fancy Metrics We Use
 
+<img width="684" alt="Screen Shot 2023-08-21 at 3 28 42 PM" src="https://github.com/Maedeabm/Stroke-Prediction-Odyssey-From-Classic-Classifiers-to-Transformers/assets/114970780/93b56745-b172-46a2-af1a-435cbee9cbf4">
+
 - **ROC Curve & AUC**: Imagine a graph showing our model's performance. The higher the curve (and the bigger the AUC number), the closer we are to the stars! 🌌
+
+<img width="908" alt="Screen Shot 2023-08-21 at 3 30 27 PM" src="https://github.com/Maedeabm/Stroke-Prediction-Odyssey-From-Classic-Classifiers-to-Transformers/assets/114970780/59b8fcc6-0dfb-4f32-8a61-32f56778950f">
 
 - **Precision-Recall Curve**: It's all about striking the right balance. We're aiming for confidence in our predictions while ensuring we're not missing out on potential cases. Higher curves = Happier predictions!
 
+<img width="908" alt="Screen Shot 2023-08-21 at 3 31 00 PM" src="https://github.com/Maedeabm/Stroke-Prediction-Odyssey-From-Classic-Classifiers-to-Transformers/assets/114970780/1324ac87-b4e4-4d83-b4ea-001088f45f1e">
+
 - **Log Loss**: Think of this as our model's report card. 🎓 Lower numbers mean our model is on top of its game!
+
+<img width="912" alt="Screen Shot 2023-08-21 at 3 32 31 PM" src="https://github.com/Maedeabm/Stroke-Prediction-Odyssey-From-Classic-Classifiers-to-Transformers/assets/114970780/4f976ffc-6d46-43c5-a6f9-af73a26e6188">
 
 ## Wrapping Up
 
 LDA isn't just a bunch of fancy jargon; it's our trusty guide in the bustling world of medical data. There are countless methods out there, but sometimes, the beauty lies in simplicity. LDA is that simple, interpretable tool in our toolkit.
-
-Until next time, keep exploring and stay curious! 🎈
