@@ -95,10 +95,15 @@ How did our model do? Let's check the score.
 
 
 print("Confusion Matrix:")
+
 print(confusion_matrix(y_test, y_pred))
+
 print("\nClassification Report:")
+
 print(classification_report(y_test, y_pred))
+
 print("\nAccuracy Score:")
+
 print(accuracy_score(y_test, y_pred))
 
 ## Tips for the Future 🔮
