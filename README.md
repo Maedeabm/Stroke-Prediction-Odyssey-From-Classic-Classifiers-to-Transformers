@@ -12,7 +12,7 @@ In our 'Understanding Strokes' project, we blend classic data techniques with mo
 
 ## 📚 What's Inside?
 
-- [About the Data](#Dataset-Snapshot)
+- [Dataset Snapshot: Predicting Strokes](#Dataset-Snapshot)
 - [What's Going On in the Code?](#whats-going-on-in-the-code)
 - [Getting Started](#getting-started)
 - [Model Performance Bits](#model-performance-bits)
