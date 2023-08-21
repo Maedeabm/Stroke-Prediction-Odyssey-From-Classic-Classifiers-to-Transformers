@@ -189,7 +189,7 @@ Hey there! 🚀 Dive into this README to explore the mystical forest where we us
 - [Feature Importance](#feature-importance)
 - [Conclusion](#conclusion)
 
-## 📦 Data Loading <a name="data-loading"></a>
+## 📦 Data Loading
 
 We kickstarted our journey by loading the dataset from Kaggle using the trusty `pandas` library.
 
