@@ -45,14 +45,14 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 
-2. Dive into the Data 🏊‍♂️
+## 2. Dive into the Data 🏊‍♂️
 
 Time to bring in the data. Make sure you name your dataset file right (or tweak the filename in the code).
 
 
 data = pd.read_csv('stroke_dataset.csv')
 
-3. A Bit of Cleaning 🧼
+## 3. A Bit of Cleaning 🧼
 
 No dataset's perfect. Here's what we're doing:
 
@@ -71,7 +71,7 @@ scaler = StandardScaler()
 X_train = scaler.fit_transform(X_train)
 X_test = scaler.transform(X_test)
 
-4. Model Time! 🎩
+## 4. Model Time! 🎩
 
 Let's train our Logistic Regression model. It's like teaching it what strokes look like based on past data.
 
@@ -79,14 +79,14 @@ Let's train our Logistic Regression model. It's like teaching it what strokes lo
 model = LogisticRegression()
 model.fit(X_train, y_train)
 
-5. Test Drive 🚗
+## 5. Test Drive 🚗
 
 Time to see our model in action on unseen data!
 
 
 y_pred = model.predict(X_test)
 
-6. Report Card 📊
+## 6. Report Card 📊
 
 How did our model do? Let's check the score.
 
@@ -98,7 +98,7 @@ print(classification_report(y_test, y_pred))
 print("\nAccuracy Score:")
 print(accuracy_score(y_test, y_pred))
 
-Tips for the Future 🔮
+## Tips for the Future 🔮
 
 To jazz things up, consider:
 
