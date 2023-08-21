@@ -38,7 +38,7 @@ First, let's get our toolbox ready. We're going to use:
 - `pandas`: Our data wrangling best friend.
 - `scikit-learn`: A Swiss army knife for machine learning. 
 
-```python
+
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
