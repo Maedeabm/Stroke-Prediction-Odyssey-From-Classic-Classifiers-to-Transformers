@@ -13,7 +13,7 @@ In our 'Understanding Strokes' project, we blend classic data techniques with mo
 ## 📚 What's Inside?
 
 - [Dataset Snapshot: Predicting Strokes](#Dataset-Snapshot)
-- [What's Going On in the Code?](#whats-going-on-in-the-code)
+- [Stroke Prediction with a Dash of Logistic Regression](#Stroke-Prediction-with-a-Dash-of-Logistic-Regression)
 - [Getting Started](#getting-started)
 - [Model Performance Bits](#model-performance-bits)
 - [Final Thoughts](#final-thoughts)
@@ -38,15 +38,6 @@ We're diving deep into a dataset from Kaggle. This dataset has been meticulously
 - **stroke**: At the heart of the dataset, 1 signifies a stroke event, while 0 signals no such history.
 
 # 🧠 Stroke Prediction with a Dash of Logistic Regression
-
-## What's Going On in the Code?
-
-1. **Loading the Data**: Just bringing in the data to play with.
-2. **Cleaning Up**: Removing missing stuff and getting the data in shape.
-3. **Getting Things to Scale**: Scaling features so our model learns better.
-4. **Teaching the Model**: We're using the Logistic Regression model here.
-5. **Checking How We Did**: We've got predictions! Let's see how well we did.
-6. **Pretty Charts**: We've visualized our results. Who doesn't love charts?
 
 ## Getting Started
 
