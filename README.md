@@ -12,7 +12,7 @@ In our 'Understanding Strokes' project, we blend classic data techniques with mo
 
 ## 📚 What's Inside?
 
-- [About the Data](#about-the-data)
+- [About the Data](#Dataset-Snapshot)
 - [What's Going On in the Code?](#whats-going-on-in-the-code)
 - [Getting Started](#getting-started)
 - [Model Performance Bits](#model-performance-bits)
@@ -22,7 +22,7 @@ In our 'Understanding Strokes' project, we blend classic data techniques with mo
 
 We're diving deep into a dataset from Kaggle. This dataset has been meticulously curated to facilitate such predictions. It integrates a plethora of patient-centric attributes, spanning personal details, medical histories, and lifestyle patterns. Each data entry dives deep into individual profiles, ensuring a holistic approach to the analysis.
 
-## Features Breakdown
+### Features Breakdown
 
 - **id**: Each patient's distinct numerical tag.
 - **gender**: Classifies into "Male", "Female", or "Other".
