@@ -10,13 +10,6 @@ In this journey, we're mixing some old-school techniques with the latest and gre
 
 In our 'Understanding Strokes' project, we blend classic data techniques with modern giants like CNNs and Transformers. It's a quest to find the best way to spot stroke risks. A mix of old and new, all for a crucial cause!
 
-## 📚 What's Inside?
-
-- [Dataset Snapshot: Predicting Strokes](#Dataset-Snapshot)
-- [Stroke Prediction with a Dash of Logistic Regression](#Stroke-Prediction-with-a-Dash-of-Logistic-Regression)
-- [Getting Started](#getting-started)
-- [Model Performance Bits](#model-performance-bits)
-- [Final Thoughts](#final-thoughts)
 
 ## Dataset Snapshot: Predicting Strokes
 
@@ -38,7 +31,12 @@ We're diving deep into a dataset from Kaggle. This dataset has been meticulously
 - **stroke**: At the heart of the dataset, 1 signifies a stroke event, while 0 signals no such history.
 
 # 🧠 Stroke Prediction with a Dash of Logistic Regression
+## 📚 What's Inside?
 
+- [Getting Started](#getting-started)
+- [Model Performance Bits](#model-performance-bits)
+- [Final Thoughts](#final-thoughts)
+- 
 ## Getting Started
 
 1. Make sure you've got these Python libraries:
