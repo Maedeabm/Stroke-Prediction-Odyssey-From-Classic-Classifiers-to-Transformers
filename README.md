@@ -56,10 +56,10 @@ data = pd.read_csv('stroke_dataset.csv')
 
 No dataset's perfect. Here's what we're doing:
 
-- **Tossing out rows with pesky missing values.
-    Juggling with categorical values to make them fit for our model.
-    Splitting our data into a training set and a test set.
-    Scaling features so our model doesn't get overwhelmed by big numbers.
+- **Tossing out rows with pesky missing values.**
+- **Juggling with categorical values to make them fit for our model.**
+- **Splitting our data into a training set and a test set.**
+- **Scaling features so our model doesn't get overwhelmed by big numbers.**
 
 
 data = data.dropna()
