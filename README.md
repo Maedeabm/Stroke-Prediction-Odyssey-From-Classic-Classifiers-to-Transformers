@@ -66,12 +66,19 @@ No dataset's perfect. Here's what we're doing:
 
 
 data = data.dropna()
+
 data = pd.get_dummies(data, drop_first=True)
+
 X = data.drop('stroke', axis=1)
+
 y = data['stroke']
+
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
 scaler = StandardScaler()
+
 X_train = scaler.fit_transform(X_train)
+
 X_test = scaler.transform(X_test)
 
 ## 4. Model Time! 🎩
@@ -80,6 +87,7 @@ Let's train our Logistic Regression model. It's like teaching it what strokes lo
 
 
 model = LogisticRegression()
+
 model.fit(X_train, y_train)
 
 ## 5. Test Drive 🚗
