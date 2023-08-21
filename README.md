@@ -248,6 +248,7 @@ fpr, tpr, thresholds = roc_curve(y_test, y_prob)
 roc_auc = auc(fpr, tpr)
 print("Log Loss:", log_loss(y_test, y_prob))
 print("Matthews Correlation Coefficient (MCC):", matthews_corrcoef(y_test, y_pred))
+```
 
 🌟 Feature Importance
 
