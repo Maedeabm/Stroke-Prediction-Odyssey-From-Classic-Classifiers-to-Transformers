@@ -61,6 +61,8 @@ We're diving deep into a dataset from Kaggle. This dataset has been meticulously
 
 - **Accuracy**: A quick number to show how often we got predictions right.
 
+<img width="685" alt="Screen Shot 2023-08-21 at 3 11 24 PM" src="https://github.com/Maedeabm/Stroke-Prediction-Odyssey-From-Classic-Classifiers-to-Transformers/assets/114970780/96ddbbe4-faef-457b-b1de-ce2daea79329">
+
 ## Final Thoughts
 
 We're only scratching the surface here! 🚀 There's so much more to discover. Fancy tweaking some features or giving the model settings a little twist? Go for it! And if you're feeling adventurous, brace yourself because I've got Linear Discriminant Analysis (LDA) lined up for you next. Dive in and enjoy the ride! 🎢✨
