@@ -134,7 +134,7 @@ git clone <your-repo-link>
 
 2. **Navigate to the Directory and Install Required Libraries**:
 
-cd <repository-name>
+cd <Stroke-Prediction-Odyssey-From-Classic-Classifiers-to-Transformers>
 pip install -r requirements.txt
 
 ## How to Run
