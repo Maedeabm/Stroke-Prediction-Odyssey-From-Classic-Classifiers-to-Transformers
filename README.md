@@ -49,7 +49,6 @@ from sklearn.metrics import classification_report, confusion_matrix, accuracy_sc
 
 Time to bring in the data. Make sure you name your dataset file right (or tweak the filename in the code).
 
-python
 
 data = pd.read_csv('stroke_dataset.csv')
 
@@ -62,7 +61,6 @@ No dataset's perfect. Here's what we're doing:
     Splitting our data into a training set and a test set.
     Scaling features so our model doesn't get overwhelmed by big numbers.
 
-python
 
 data = data.dropna()
 data = pd.get_dummies(data, drop_first=True)
@@ -77,7 +75,6 @@ X_test = scaler.transform(X_test)
 
 Let's train our Logistic Regression model. It's like teaching it what strokes look like based on past data.
 
-python
 
 model = LogisticRegression()
 model.fit(X_train, y_train)
@@ -86,7 +83,6 @@ model.fit(X_train, y_train)
 
 Time to see our model in action on unseen data!
 
-python
 
 y_pred = model.predict(X_test)
 
@@ -94,7 +90,6 @@ y_pred = model.predict(X_test)
 
 How did our model do? Let's check the score.
 
-python
 
 print("Confusion Matrix:")
 print(confusion_matrix(y_test, y_pred))
