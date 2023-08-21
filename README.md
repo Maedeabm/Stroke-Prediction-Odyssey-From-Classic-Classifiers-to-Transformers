@@ -103,3 +103,65 @@ Navigating medical data can feel like walking through a maze! 🌪️ But guess 
 ## Wrapping Up
 
 LDA isn't just a bunch of fancy jargon; it's our trusty guide in the bustling world of medical data. There are countless methods out there, but sometimes, the beauty lies in simplicity. LDA is that simple, interpretable tool in our toolkit.
+
+# 🌳 Stroke Prediction Using Decision Trees
+
+Dive into the world of predictive analytics with Decision Trees as we aim to predict strokes based on various health parameters.
+
+## Table of Contents
+
+- [Setup and Installation](#setup-and-installation)
+- [How to Run](#how-to-run)
+- [Project Structure](#project-structure)
+- [Visual Insights](#visual-insights)
+- [Feedback and Contributions](#feedback-and-contributions)
+
+## Setup and Installation
+
+### Prerequisites
+Ensure you have the following installed:
+- **Python 3.x**
+- Required Libraries: 
+    ```
+    pandas, sklearn, matplotlib, seaborn
+    ```
+
+### Steps:
+
+1. **Clone the Repository**:
+
+git clone <your-repo-link>
+
+2. **Navigate to the Directory and Install Required Libraries**:
+
+cd <repository-name>
+pip install -r requirements.txt
+
+## How to Run
+
+Simply execute:
+
+python decision_tree_stroke.py
+
+## Project Structure
+
+- **Data Loading**: Start by reading the `stroke.csv` dataset.
+  
+- **Preprocessing**: Handle missing values, encode categorical variables, and split data.
+  
+- **Model Training**: Train the Decision Tree classifier.
+  
+- **Evaluation**: Evaluate model performance using metrics: accuracy, confusion matrix, precision, recall, F1-score, ROC Curve, and feature importance.
+
+## Visual Insights
+
+- **Confusion Matrix**: Visual representation of model accuracy.
+  
+- **ROC Curve**: Graphical depiction of true positive rate versus false positive rate.
+  
+- **Feature Importance**: Understand which features impact the model's decisions the most.
+
+## Feedback and Contributions
+
+Your suggestions are invaluable! 🌟 Feel free to raise issues, suggest improvements, or submit pull requests.
+
