@@ -105,9 +105,12 @@ print(accuracy_score(y_test, y_pred))
 
 To jazz things up, consider:
 
-    Fine-tuning the settings of the model.
-    Crafting new features from the data.
-    Filling in missing data points instead of tossing them out.
-    Looking into strategies if our data has more of one class than another.
+- **Fine-tuning the settings of the model.**
+  
+- **Crafting new features from the data.**
+
+- **Filling in missing data points instead of tossing them out.**
+  
+- **Looking into strategies if our data has more of one class than another.**
 
 Cheers! 🥂
