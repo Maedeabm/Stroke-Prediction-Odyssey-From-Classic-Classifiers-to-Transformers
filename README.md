@@ -241,7 +241,7 @@ Beyond the usual metrics, we took a deeper dive to assess:
 🔥 Log Loss - A measure of uncertainty.
 💡 Matthews Correlation Coefficient - Offers insights even with imbalanced datasets.
 
-
+```python
 from sklearn.metrics import roc_curve, auc, log_loss, matthews_corrcoef
 y_prob = rf.predict_proba(X_test)[:,1]
 fpr, tpr, thresholds = roc_curve(y_test, y_prob)
