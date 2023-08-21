@@ -193,11 +193,10 @@ Hey there! 🚀 Dive into this README to explore the mystical forest where we us
 
 We kickstarted our journey by loading the dataset from Kaggle using the trusty `pandas` library.
 
-```python
 import pandas as pd
 data = pd.read_csv('stroke.csv')
 
-🧹 Data Preprocessing <a name="data-preprocessing"></a>
+🧹 Data Preprocessing
 
 To make sure our forest gets the best nutrients:
 
@@ -205,7 +204,6 @@ To make sure our forest gets the best nutrients:
     Employed one-hot encoding for categorical data
     Segregated the data into training and testing sets
 
-python
 
 data.dropna(inplace=True)
 data = pd.get_dummies(data, drop_first=True)
@@ -214,17 +212,15 @@ X = data.drop('stroke', axis=1)
 y = data['stroke']
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-🧙‍♂️ Model Training <a name="model-training"></a>
+🧙‍♂️ Model Training
 
 With our data prepped and ready, it was time to invoke the power of the Random Forest!
-
-python
 
 from sklearn.ensemble import RandomForestClassifier
 rf = RandomForestClassifier(random_state=42)
 rf.fit(X_train, y_train)
 
-📊 Model Evaluation <a name="model-evaluation"></a>
+📊 Model Evaluation
 
 Post-training, we evaluated our forest's magic using:
 
@@ -232,13 +228,12 @@ Post-training, we evaluated our forest's magic using:
     A detailed classification report for precision, recall, and F1 scores
     Overall accuracy to gauge the forest's wisdom
 
-python
 
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 y_pred = rf.predict(X_test)
 print(classification_report(y_test, y_pred))
 
-🎯 Extra Performance Metrics <a name="extra-performance-metrics"></a>
+🎯 Extra Performance Metrics
 
 Beyond the usual metrics, we took a deeper dive to assess:
 
@@ -246,7 +241,6 @@ Beyond the usual metrics, we took a deeper dive to assess:
 🔥 Log Loss - A measure of uncertainty.
 💡 Matthews Correlation Coefficient - Offers insights even with imbalanced datasets.
 
-python
 
 from sklearn.metrics import roc_curve, auc, log_loss, matthews_corrcoef
 y_prob = rf.predict_proba(X_test)[:,1]
@@ -255,15 +249,14 @@ roc_auc = auc(fpr, tpr)
 print("Log Loss:", log_loss(y_test, y_prob))
 print("Matthews Correlation Coefficient (MCC):", matthews_corrcoef(y_test, y_pred))
 
-🌟 Feature Importance <a name="feature-importance"></a>
+🌟 Feature Importance
 
 To understand the whisperings of the forest, we gauged the importance of features it valued.
 
-python
 
 importances = rf.feature_importances_
 features = X.columns
 
-🎉 Conclusion <a name="conclusion"></a>
+🎉 Conclusion 
 
 Journeying through this enchanted forest, we witnessed the magic of the Random Forest in predicting strokes. The model's charm lies in its ensemble strength, and we hope you had fun exploring it! Feel the urge to tweak and experiment? Go ahead and amplify the magic! Best of luck, and happy coding! 🌟
