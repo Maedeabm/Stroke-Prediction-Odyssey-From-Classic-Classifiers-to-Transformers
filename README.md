@@ -158,8 +158,12 @@ python decision_tree_stroke.py
 - **Confusion Matrix**: Visual representation of model accuracy.
   
 - **ROC Curve**: Graphical depiction of true positive rate versus false positive rate.
-  
+
+  <img width="941" alt="Screen Shot 2023-08-21 at 4 01 58 PM" src="https://github.com/Maedeabm/Stroke-Prediction-Odyssey-From-Classic-Classifiers-to-Transformers/assets/114970780/6e258ddd-8fa8-4664-b613-e177169f297e">
+
 - **Feature Importance**: Understand which features impact the model's decisions the most.
+
+![23](https://github.com/Maedeabm/Stroke-Prediction-Odyssey-From-Classic-Classifiers-to-Transformers/assets/114970780/00abe8cc-a7f2-4dc2-ae87-6d67c87e74ce)
 
 ## Feedback and Contributions
 
