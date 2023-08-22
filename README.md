@@ -193,8 +193,10 @@ Hey there! 🚀 Dive into this README to explore the mystical forest where we us
 
 We kickstarted our journey by loading the dataset from Kaggle using the trusty `pandas` library.
 
+```python
 import pandas as pd
 data = pd.read_csv('stroke.csv')
+```
 
 🧹 Data Preprocessing
 
@@ -204,21 +206,24 @@ To make sure our forest gets the best nutrients:
     Employed one-hot encoding for categorical data
     Segregated the data into training and testing sets
 
-
+```python
 data.dropna(inplace=True)
 data = pd.get_dummies(data, drop_first=True)
 from sklearn.model_selection import train_test_split
 X = data.drop('stroke', axis=1)
 y = data['stroke']
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+```
 
 🧙‍♂️ Model Training
 
 With our data prepped and ready, it was time to invoke the power of the Random Forest!
 
+```python
 from sklearn.ensemble import RandomForestClassifier
 rf = RandomForestClassifier(random_state=42)
 rf.fit(X_train, y_train)
+```
 
 📊 Model Evaluation
 
@@ -228,10 +233,11 @@ Post-training, we evaluated our forest's magic using:
     A detailed classification report for precision, recall, and F1 scores
     Overall accuracy to gauge the forest's wisdom
 
-
+```python
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 y_pred = rf.predict(X_test)
 print(classification_report(y_test, y_pred))
+```
 
 🎯 Extra Performance Metrics
 
@@ -254,9 +260,10 @@ print("Matthews Correlation Coefficient (MCC):", matthews_corrcoef(y_test, y_pre
 
 To understand the whisperings of the forest, we gauged the importance of features it valued.
 
-
+```python
 importances = rf.feature_importances_
 features = X.columns
+```
 
 🎉 Conclusion 
 
