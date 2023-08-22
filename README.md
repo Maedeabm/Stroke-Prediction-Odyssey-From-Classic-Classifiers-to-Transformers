@@ -239,6 +239,8 @@ y_pred = rf.predict(X_test)
 print(classification_report(y_test, y_pred))
 ```
 
+<img width="734" alt="Screen Shot 2023-08-21 at 5 03 45 PM" src="https://github.com/Maedeabm/Stroke-Prediction-Odyssey-From-Classic-Classifiers-to-Transformers/assets/114970780/13ce0ba7-1475-4d8c-a1d5-64b996597f56">
+
 🎯 Extra Performance Metrics
 
 Beyond the usual metrics, we took a deeper dive to assess:
@@ -256,6 +258,11 @@ print("Log Loss:", log_loss(y_test, y_prob))
 print("Matthews Correlation Coefficient (MCC):", matthews_corrcoef(y_test, y_pred))
 ```
 
+![26](https://github.com/Maedeabm/Stroke-Prediction-Odyssey-From-Classic-Classifiers-to-Transformers/assets/114970780/5f004706-37a8-47ba-8480-e20971204074)
+
+<img width="906" alt="Screen Shot 2023-08-21 at 5 07 54 PM" src="https://github.com/Maedeabm/Stroke-Prediction-Odyssey-From-Classic-Classifiers-to-Transformers/assets/114970780/b1babb1f-3e22-4072-bf0f-ee532fcf24dd">
+
+
 🌟 Feature Importance
 
 To understand the whisperings of the forest, we gauged the importance of features it valued.
@@ -264,6 +271,8 @@ To understand the whisperings of the forest, we gauged the importance of feature
 importances = rf.feature_importances_
 features = X.columns
 ```
+
+![27](https://github.com/Maedeabm/Stroke-Prediction-Odyssey-From-Classic-Classifiers-to-Transformers/assets/114970780/9d578c21-db4a-45b6-b001-d002bbabf5ce)
 
 🎉 Conclusion 
 
