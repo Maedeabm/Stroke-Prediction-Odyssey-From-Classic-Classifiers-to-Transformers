@@ -202,9 +202,9 @@ data = pd.read_csv('stroke.csv')
 
 To make sure our forest gets the best nutrients:
 
-    Eliminated missing values
-    Employed one-hot encoding for categorical data
-    Segregated the data into training and testing sets
+- Eliminated missing values
+- Employed one-hot encoding for categorical data
+- Segregated the data into training and testing sets
 
 ```python
 data.dropna(inplace=True)
@@ -229,9 +229,9 @@ rf.fit(X_train, y_train)
 
 Post-training, we evaluated our forest's magic using:
 
-    A classic confusion matrix
-    A detailed classification report for precision, recall, and F1 scores
-    Overall accuracy to gauge the forest's wisdom
+- A classic confusion matrix
+- A detailed classification report for precision, recall, and F1 scores
+- Overall accuracy to gauge the forest's wisdom
 
 ```python
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
